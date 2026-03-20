@@ -1,0 +1,49 @@
+# 数据库文件
+*.db
+*.db-journal
+*.db-wal
+*.db-shm
+
+# 压缩数据文件
+*.gz
+*.bz2
+*.zip
+*.tar
+*.tar.gz
+
+# JSON 数据文件（大文件）
+*.json
+
+# CSV 数据文件
+data/*.csv
+*.csv
+
+# 日志文件
+*.log
+
+# Python 缓存
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# 虚拟环境
+venv/
+env/
+ENV/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# 操作系统
+.DS_Store
+Thumbs.db
+
+# 大文件目录
+data/
+downloads/
+dump/
